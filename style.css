@@ -1,6 +1,11 @@
 body {
+    margin: 0;
     text-align: centre;
 }
+
+.section {
+    width: 100%
+    text-align: centre;
 
 /* MAIN TEXT */
 
