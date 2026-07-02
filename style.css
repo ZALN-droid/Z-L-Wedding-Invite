@@ -25,3 +25,18 @@ body {
     font-size: 40px;
     color: #C4AB46;
 }
+
+.and-image {
+    width: 300px
+    height: auto
+}
+
+.button-image {
+    width: 180px
+    height: auto
+}
+
+.logo-image {
+    width: 120px
+    height: auto
+}
