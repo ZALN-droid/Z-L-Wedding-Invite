@@ -87,6 +87,12 @@ body {
     height: auto;
 }
 
+.inshaallah-image {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+}
+
 body.home-page,
 body.nikaah-page,
 body.wedding-page {
