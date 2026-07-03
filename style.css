@@ -81,6 +81,11 @@ body {
     height: auto;
 }
 
+.dua1-image {
+    width: 60%;
+    max-width: 250px;
+    height: auto;
+
 .dua2-image {
     width: 100%;
     max-width: 300px;
