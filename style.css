@@ -106,3 +106,32 @@ body {
     opacity: 1;
     transform: translateY(0);
 }
+
+.section {
+    margin-bottom: 35px;
+}
+
+.main-text {
+    margin: 10px 0;
+}
+
+.sub-text {
+    margin: 8px 0;
+}
+
+.accent-text {
+    margin: 10px 0;
+}
+
+.dua-image {
+    margin-bottom: 10px;
+}
+
+.button {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.logo-image {
+    margin-top: 30px;
+}
