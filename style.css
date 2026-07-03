@@ -158,10 +158,17 @@ body.wedding-page {
     border-bottom: 1px solid currentColor;
     padding: 4px 0;
     font: inherit;
+    text-align: center;
+}
+
+.rsvp-form input::placeholder {
+    color: inherit;
+    text-align: center;
+    opacity: 1;
 }
 
 .rsvp-form button {
-    margin-top: 12px;
+    margin: 12px auto 0;
     background: transparent;
     border: 1px solid currentColor;
     padding: 8px 16px;
