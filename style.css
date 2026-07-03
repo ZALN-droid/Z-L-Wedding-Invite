@@ -145,3 +145,26 @@ body.wedding-page {
 .hero-image {
     margin-top: 30px;
 }
+
+.rsvp-form {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.rsvp-form input {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid currentColor;
+    padding: 4px 0;
+    font: inherit;
+}
+
+.rsvp-form button {
+    margin-top: 12px;
+    background: transparent;
+    border: 1px solid currentColor;
+    padding: 8px 16px;
+    width: fit-content;
+    cursor: pointer;
+}
