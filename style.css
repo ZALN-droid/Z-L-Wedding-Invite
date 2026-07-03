@@ -37,19 +37,17 @@ body {
 
 .and-image {
     width: 60%;
-    max-width: 120px;
+    max-width: 250px;
     height: auto;
 }
 
 .button-image {
-    border: 5px solid red;
-    width: 20px;
+    width: 120px;
     height: auto;
 }
 
 .logo-image {
-    width: 30%;
-    max-width: 60px;
+    width: 120px;
     height: auto;
 }
 
