@@ -41,14 +41,14 @@ body {
 .italic-text {
     font-family: Garamond, serif;
     font-style: italic;
-    font-size: 12px;
+    font-size: 14px;
     color: #859274;
     line-height: 1.5;
 }
 
 .gold-text {
     font-family: Garamond, serif;
-    font-size: 12px;
+    font-size: 14px;
     color: #C4AB46;
     line-height: 1.5;
 }
