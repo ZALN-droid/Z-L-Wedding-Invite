@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wedding</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="wedding-page">
+
+    <!-- Bismillah -->
+    <div class="section reveal">
+        <img src="bismillah.png" class="hero-image" alt="Bismillah">
+    </div>
+
+    <!-- Request -->
+    <div class="section reveal">
+        <p class="main-text">
+            THE NANA & ASMAL FAMILIES REQUEST YOUR PRESENCE AT THE WEDDING RECEPTION OF 
+        </p>
+
+        <p class="sub-text">
+            HAAFIDH
+        </p>
+    </div>
+
+    <!-- Name 1 -->
+    <div class="section reveal">
+        <p class="accent-text">
+            Luqmaan
+        </p>
+    </div>
+
+    <!-- Main message -->
+    <div class="section reveal">
+        <p class="main-text">
+            SON OF YUNUS & LUQMAAN NANA
+        </p>
+
+        <p class="main-text">&</p>
+    </div>
+
+    <!-- Name 2 -->
+    <div class="section reveal">
+        <p class="accent-text">
+            Zahrah
+        </p>
+    </div>
+
+    <!-- Main text -->
+    <div class="section reveal">
+        <p class="main-text">
+            DAUGHTER OF SULEMAN & SABEELA ASMAL
+        </p>
+    </div>
+
+    <!-- Image -->
+    <div class="section reveal">
+        <img src="inshaallah.png" class="inshaallah-image" alt="In Sha Allah">
+    </div>
+
+    <!-- Details -->
+    <div class="section reveal">
+        <p class="main-text">DETAILS</p>
+    </div>
+
+    <!-- Islamic Date -->
+    <div class="section reveal">
+        <p class="accent-text">19 Jamada-al-Akhira 1448</p>
+    </div>
+
+    <!-- Date -->
+    <div class="section reveal">
+        <p class="main-text">29 NOVEMBER 2026</p>
+    </div>
+
+    <!-- Day & Time -->
+    <div class="section reveal">
+        <p class="sub-text">SUNDAY | 13:30</p>
+    </div>
+
+    <!-- Venue -->
+    <div class="section reveal">
+        <p class="accent-text">Bazme - Adab Hall</p>
+    </div>
+
+    <!-- Address -->
+    <div class="section reveal">
+        <p class="main-text">CNR. MAYET DRIVE & LOONAT STREET, ACTONVILLE,  BENONI</p>
+    </div>
+
+    <!-- Map -->
+    <div class="section reveal">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3579.3610398751766!2d28.306597600000003!3d-26.217456!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e953d5a17c28e51%3A0x50a7c8de7e4e22b3!2sBazme%20Adab%20Centre!5e0!3m2!1sen!2sza!4v1780318767939!5m2!1sen!2sza"
+            height="300"
+            style="border:0;"
+            allowfullscreen=""
+            loading="lazy">
+        </iframe>
+    </div>
+
+    <!-- RSVP -->
+    <div class="section reveal">
+        <p class="main-text">
+            PLEASE RSVP BY CLICKING BELOW
+        </p>
+    </div>
+
+    <div class="section reveal">
+        <iframe
+            src="PASTE_GOOGLE_FORM_LINK_HERE"
+            width="100%"
+            height="500"
+            style="border:0;">
+        </iframe>
+    </div>
+
+    <!-- Note -->
+    <div class="section reveal">
+        <p class="main-text">
+            PLEASE NOTE THAT THE BRIDE & GROOM REQUEST THAT NO PICTURES BE TAKEN AT THE WEDDING RECEPTION<br>
+          جزاك اللهُ خيراً
+        </p>
+    </div>
+
+    <!-- Order of the day image -->
+    <div class="section reveal">
+        <img src="order-of-day.png" class="hero-image" alt="Order of the Day">
+    </div>
+
+    <!-- Back button -->
+    <div class="section reveal">
+        <a href="index.html" class="button">
+            BACK TO HOME PAGE
+        </a>
+    </div>
+
+    <!-- Logo -->
+    <div class="section reveal">
+        <img src="logo.png" class="logo-image" alt="Logo">
+    </div>
+
+    <script>
+        function reveal() {
+            const reveals = document.querySelectorAll(".reveal");
+
+            reveals.forEach((element) => {
+                const windowHeight = window.innerHeight;
+                const elementTop = element.getBoundingClientRect().top;
+                const visiblePoint = 100;
+
+                if (elementTop < windowHeight - visiblePoint) {
+                    element.classList.add("active");
+                }
+            });
+        }
+
+        window.addEventListener("scroll", reveal);
+        reveal();
+    </script>
+
+</body>
+</html>
