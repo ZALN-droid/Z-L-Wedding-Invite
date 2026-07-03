@@ -26,9 +26,9 @@ body {
     line-height: 1.5;
 }
 
-/* EXQUISITE TEXT */
+/* ACCENT TEXT */
 
-.accent {
+.accent-text {
     font-family: "Great Vibes", cursive;
     font-size: 40px;
     color: #C4AB46;
