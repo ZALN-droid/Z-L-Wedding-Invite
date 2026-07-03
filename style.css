@@ -46,3 +46,15 @@ body {
     width: 120px;
     height: auto;
 }
+
+.home-page {
+    background-image: url("home-background.jpg");
+}
+
+.nikaah-page {
+    background-image: url("nikaah-background.jpg");
+}
+
+.wedding-page {
+    background-image: url("wedding-background.jpg");
+}
