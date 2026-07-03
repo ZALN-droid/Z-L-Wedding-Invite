@@ -87,22 +87,10 @@ body {
     height: auto;
 }
 
-.home-page {
-    background-image: url("home-background.jpg");
-    background-repeat: no-repeat;
-    background-size: 100% auto;
-    background-position: top center;
-}
-
-.nikaah-page {
-    background-image: url("home-background.jpg");
-    background-repeat: no-repeat;
-    background-size: 100% auto;
-    background-position: top center;
-}
-
+.home-page,
+.nikaah-page,
 .wedding-page {
-    background-image: url("wedding-background.jpg");
+    background-image: url("home-background.jpg");
     background-repeat: no-repeat;
     background-size: 100% auto;
     background-position: top center;
