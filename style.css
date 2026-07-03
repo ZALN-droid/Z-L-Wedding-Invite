@@ -67,9 +67,10 @@ body {
 }
 
 .hero-image {
-    width: 90%;
-    max-width: 300px;
-    height: auto;
+    width: 90% !important;
+    max-width: 300px !important;
+    height: auto !important;
+    border: 5px solid red !important;
 }
 
 .name-image {
