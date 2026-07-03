@@ -112,23 +112,28 @@
         </p>
     </div>
 
-    <div class="gold-text">
-    <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+    <form action="https://formspree.io/f/YOUR_ID" method="POST" class="rsvp-form">
 
-        <input type="text" name="name" placeholder="FULL NAME" required>
+    <label class="main-text" for="name">FULL NAME</label>
+    <input class="gold-text" type="text" id="name" name="name" required>
 
-        <input type="email" name="email" placeholder="EMAIL ADDRESS" required>
+    <label class="main-text" for="email">EMAIL ADDRESS</label>
+    <input class="gold-text" type="email" id="email" name="email" required>
 
-        <input type="number" name="females" min="0" placeholder="NUMBER OF WOMEN ATTENDING">
+    <label class="main-text" for="females">NUMBER OF WOMEN ATTENDING</label>
+    <input class="gold-text" type="number" id="females" name="females" min="0">
 
-        <input type="number" name="males" min="0" placeholder="NUMBER OF MED ATTENDING">
+    <label class="main-text" for="males">NUMBER OF MEN ATTENDING</label>
+    <input class="gold-text" type="number" id="males" name="males" min="0">
 
-        <input type="number" name="total_guests" min="1" placeholder="TOTAL NUMBER OF GUESTS AS PER INVITE" required>
+    <label class="main-text" for="total_guests">
+        TOTAL NUMBER OF GUESTS (AS PER INVITE)
+    </label>
+    <input class="gold-text" type="number" id="total_guests" name="total_guests" min="1">
 
-        <button type="submit">SUBMIT RSVP</button>
+    <button type="submit" class="main-text">SUBMIT RSVP</button>
 
-    </form>
-</div>
+</form>
 
     <!-- Note -->
     <div class="section reveal">
@@ -147,6 +152,13 @@
     <div class="section reveal">
         <a href="index.html" class="button">
             BACK TO HOME PAGE
+        </a>
+    </div>
+
+    <div class="section reveal">
+
+        <a href="index.html">
+            <img src="backhome.png" class="button-image" alt="Home">
         </a>
     </div>
 
