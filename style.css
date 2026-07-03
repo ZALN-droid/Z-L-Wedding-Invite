@@ -36,6 +36,23 @@ body {
     line-height: 1;
 }
 
+/* OTHER TEXT */
+
+.italic-text {
+    font-family: Garamond, serif;
+    font-style: italic;
+    font-size: 12px;
+    color: #859274;
+    line-height: 1.5;
+}
+
+.gold-text {
+    font-family: Garamond, serif;
+    font-size: 12px;
+    color: #C4AB46;
+    line-height: 1.5;
+}
+
 .and-image {
     width: 100%;
     max-width: 350px;
@@ -49,6 +66,24 @@ body {
 
 .logo-image {
     width: 120px;
+    height: auto;
+}
+
+.hero-image {
+    width: 90%;
+    max-width: 300px;
+    height: auto;
+}
+
+.name-image {
+    width: 50%;
+    max-width: 200px;
+    height: auto;
+}
+
+.dua2-image {
+    width: 100%;
+    max-width: 300px;
     height: auto;
 }
 
