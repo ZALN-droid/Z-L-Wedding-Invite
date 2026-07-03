@@ -92,7 +92,7 @@ body.nikaah-page,
 body.wedding-page {
     background-image: url("home-background.jpg");
     background-repeat: no-repeat;
-    background-size: 100% auto;
+    background-size: cover;
     background-position: top center;
 }
 
