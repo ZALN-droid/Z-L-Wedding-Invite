@@ -1,11 +1,12 @@
 body {
     margin: 0;
-    text-align: centre;
+    text-align: center;
 }
 
 .section {
-    width: 100%
-    text-align: centre;
+    width: 100%;
+    text-align: center;
+}
 
 /* MAIN TEXT */
 
@@ -32,16 +33,16 @@ body {
 }
 
 .and-image {
-    width: 300px
-    height: auto
+    width: 300px;
+    height: auto;
 }
 
 .button-image {
-    width: 180px
-    height: auto
+    width: 180px;
+    height: auto;
 }
 
 .logo-image {
-    width: 120px
-    height: auto
+    width: 120px;
+    height: auto;
 }
