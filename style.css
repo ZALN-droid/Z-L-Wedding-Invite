@@ -66,6 +66,24 @@ body {
     height: auto;
 }
 
+.hero-image {
+    width: 90%;
+    max-width: 300px;
+    height: auto;
+}
+
+.name-image {
+    width: 50%px;
+    max-width: 200px;
+    height: auto;
+}
+
+.dua-image {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+}
+
 .home-page {
     background-image: url("home-background.jpg");
     background-repeat: no-repeat;
