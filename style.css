@@ -118,39 +118,24 @@ body.wedding-page {
     transform: translateY(0);
 }
 
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
 .section {
-    margin-bottom: 35px;
+    padding: 12px 0;
+    margin: 0;
 }
 
-.main-text {
-    margin: 10px 0;
+p, h1, h2, h3 {
+    margin: 6px 0;
 }
-
-.sub-text {
-    margin: 8px 0;
-}
-
-.accent-text {
-    margin: 10px 0;
-}
-
-.dua-image {
-    margin-bottom: 10px;
-}
-
-.button {
-    margin-top: 20px;
-    margin-bottom: 40px;
-}
-
-.logo-image {
-    margin-top: 30px;
-}
-
-.hero-image {
-    margin-top: 30px;
-}
-
+    
 .rsvp-form {
     display: flex;
     flex-direction: column;
