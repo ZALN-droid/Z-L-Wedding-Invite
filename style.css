@@ -33,7 +33,8 @@ body {
 }
 
 .and-image {
-    width: 50px;
+    width: 15%;
+    max-width: 90px;
     height: auto;
 }
 
