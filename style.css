@@ -87,9 +87,9 @@ body {
     height: auto;
 }
 
-.home-page,
-.nikaah-page,
-.wedding-page {
+body.home-page,
+body.nikaah-page,
+body.wedding-page {
     background-image: url("home-background.jpg");
     background-repeat: no-repeat;
     background-size: 100% auto;
