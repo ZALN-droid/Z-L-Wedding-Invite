@@ -37,12 +37,12 @@ body {
 
 .and-image {
     width: 100%;
-    max-width: 250px;
+    max-width: 350px;
     height: auto;
 }
 
 .button-image {
-    width: 120px;
+    width: 200px;
     height: auto;
 }
 
