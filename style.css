@@ -30,7 +30,7 @@ body {
 /* ACCENT TEXT */
 .accent-text {
     font-family: "Great Vibes", cursive;
-    font-size: 30px;
+    font-size: 35px;
     font-weight: 700;
     color: #C4AB46;
     line-height: 1;
@@ -83,7 +83,7 @@ body {
 
 .dua1-image {
     width: 100%;
-    max-width: 250px;
+    max-width: 300px;
     height: auto;
 }
 
