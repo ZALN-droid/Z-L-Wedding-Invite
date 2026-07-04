@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Intro Animation</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      min-height: 100vh;
+      overflow: hidden;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: white;
+      font-family: Arial, sans-serif;
+    }
+
+    /* WRAPPER */
+    .stage {
+      position: relative;
+      width: 100vw;
+      height: 100vh;
+      opacity: 1;
+      transition: opacity 1s ease;
+    }
+
+    .stage.fade-out {
+      opacity: 0;
+    }
+
+    /* IMAGES */
+    .image {
+      position: absolute;
+      top: 50%;
+      width: 220px;
+      height: 220px;
+      object-fit: cover;
+      border-radius: 16px;
+      transform: translateY(-50%);
+      animation-duration: 2s;
+      animation-timing-function: ease-in-out;
+      animation-fill-mode: forwards;
+    }
+
+    .left-image {
+      left: -260px;
+      animation-name: slideFromLeft;
+    }
+
+    .right-image {
+      right: -260px;
+      animation-name: slideFromRight;
+    }
+
+    @keyframes slideFromLeft {
+      from {
+        left: -260px;
+      }
+      to {
+        left: calc(60% - 220px);
+      }
+    }
+
+    @keyframes slideFromRight {
+      from {
+        right: -260px;
+      }
+      to {
+        right: calc(60% - 220px);
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="stage" id="stage">
+
+    <img src="left.png" class="image left-image" />
+    <img src="right.png" class="image right-image" />
+
+  </div>
+
+  <script>
+    window.addEventListener("load", () => {
+
+      setTimeout(() => {
+
+        // fade out
+        document.getElementById("stage").classList.add("fade-out");
+
+        // redirect after fade
+        setTimeout(() => {
+          window.location.href = "index.html";
+        }, 1000);
+
+      }, 2500); // time after animation finishes
+
+    });
+  </script>
+
+</body>
+</html>
