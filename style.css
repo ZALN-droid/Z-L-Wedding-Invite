@@ -4,6 +4,10 @@ body {
     text-align: center;
 }
 
+:root {
+    color-scheme: light;
+}
+
 /* SECTIONS */
 .section {
     width: 100%;
