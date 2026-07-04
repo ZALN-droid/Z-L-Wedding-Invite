@@ -19,7 +19,7 @@ body {
 .main-text {
     font-family: Garamond, serif;
     font-size: 14px;
-    color: #000000;
+    color: #595959;
     line-height: 2;
 }
 
@@ -59,7 +59,7 @@ body {
 .details-text {
     font-family: Garamond, serif;
     font-size: 16px;
-    color: #000000;
+    color: #595959;
     line-height: 1.5;
 }
 
