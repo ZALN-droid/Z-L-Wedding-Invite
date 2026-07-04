@@ -112,6 +112,11 @@ body {
     height: auto;
 }
 
+.orderoftheday-image {
+    width: 60%;
+    max-width: 150px;
+    height: auto;
+
 /* BACKGROUND */
 body.home-page,
 body.nikaah-page,
