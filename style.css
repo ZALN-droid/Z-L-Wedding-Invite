@@ -69,6 +69,12 @@ body {
     color: #777777;
     line-height: 1.5;
 }
+
+.rsvp-text {
+font-family: Garamond, serif;
+font-size: 18px;
+color: #C4AB46;
+}
     
 /* IMAGES */
 .and-image {
