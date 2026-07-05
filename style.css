@@ -105,27 +105,29 @@ color: #C4AB46;
     width: 90%;
     max-width: 300px;
     height: auto;
-    opacity: 0.7;
+    opacity: 0.6;
+    margin-bottom: 2px;
 }
 
 .name-image {
     width: 80%;
     max-width: 250px;
     height: auto;
+    margin-bottom: 2px;
 }
 
 .dua1-image {
     width: 100%;
     max-width: 300px;
     height: auto;
-    opacity: 0.7;
+    opacity: 0.6;
 }
 
 .dua2-image {
     width: 100%;
     max-width: 300px;
     height: auto;
-    opacity: 0.7;
+    opacity: 0.6;
 }
 
 .inshaallah-image {
@@ -133,7 +135,7 @@ color: #C4AB46;
     height: auto;
     display: block;
     margin: 0 auto;
-    opacity: 0.7;
+    opacity: 0.6;
 }
 
 .backhome-image {
