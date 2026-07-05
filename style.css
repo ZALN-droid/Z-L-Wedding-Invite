@@ -21,6 +21,7 @@ body {
     font-size: 14px;
     color: #595959;
     line-height: 2;
+    margin-bottom: 2px;
 }
 
 /* SUBTEXT */
@@ -29,6 +30,7 @@ body {
     font-size: 12px;
     color: #777777;
     line-height: 1.5;
+    margin-bottom: 2px;
 }
 
 /* ACCENT TEXT */
@@ -66,7 +68,7 @@ body {
 .details2-text {
     font-family: Garamond, serif;
     font-size: 16px;
-    color: #777777;
+    color: #595959;
     line-height: 1.5;
 }
 
@@ -74,6 +76,12 @@ body {
 font-family: Garamond, serif;
 font-size: 18px;
 color: #C4AB46;
+}
+
+.and-text {
+    font-family: "Great Vibes", cursive;
+    font-size: 20px;
+    colour: #777777;
 }
     
 /* IMAGES */
