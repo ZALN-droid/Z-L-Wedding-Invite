@@ -21,7 +21,7 @@ body {
     font-size: 14px;
     color: #595959;
     line-height: 2;
-    margin-bottom: 2px;
+    margin-bottom: 0.5px;
 }
 
 /* SUBTEXT */
@@ -30,7 +30,7 @@ body {
     font-size: 12px;
     color: #777777;
     line-height: 1.5;
-    margin-bottom: 2px;
+    margin-bottom: 0.5px;
 }
 
 /* ACCENT TEXT */
@@ -80,7 +80,7 @@ color: #C4AB46;
 
 .and-text {
     font-family: "Great Vibes", cursive;
-    font-size: 120px;
+    font-size: 60px;
     colour: #777777;
 }
     
@@ -106,14 +106,14 @@ color: #C4AB46;
     max-width: 300px;
     height: auto;
     opacity: 0.6;
-    margin-bottom: 2px;
+    margin-bottom: 0.5px;
 }
 
 .name-image {
     width: 80%;
     max-width: 250px;
     height: auto;
-    margin-bottom: 2px;
+    margin-bottom: 0.5px;
 }
 
 .dua1-image {
