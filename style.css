@@ -161,6 +161,14 @@ color: #C4AB46;
     display: block;
 }
 
+.backhome-image {
+    width: 50%;
+    max-width: 250px;
+    height: auto;
+    margin-bottom: 2px;
+    display: block;
+}
+
 /* BACKGROUND */
 body.home-page,
 body.nikaah-page,
