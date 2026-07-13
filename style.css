@@ -141,12 +141,6 @@ color: #C4AB46;
     opacity: 0.6;
 }
 
-.backhome-image {
-    width: 20px;
-    height: auto;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-}
-
 .orderoftheday-image {
     width: 60%;
     max-width: 150px;
@@ -165,8 +159,7 @@ color: #C4AB46;
     width: 50%;
     max-width: 250px;
     height: auto;
-    margin-bottom: 2px;
-    display: block;
+    margin: 0 auto;
 }
 
 /* BACKGROUND */
