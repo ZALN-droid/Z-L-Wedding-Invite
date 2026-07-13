@@ -93,9 +93,10 @@ color: #C4AB46;
 
 .button-image {
     width: 100%;
-    max-width: 300px;
+    max-width: 500px;
     height: auto;
     margin-bottom: 2px;
+    display: block;
 }
 
 .logo-image {
@@ -154,9 +155,10 @@ color: #C4AB46;
 
 .heading-image {
     width: 100%;
-    max-width: 300px;
+    max-width: 500px;
     height: auto;
     margin-bottom: 0.5px;
+    display: block;
 }
 
 /* BACKGROUND */
