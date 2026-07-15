@@ -97,6 +97,7 @@ color: #C4AB46;
     height: auto;
     margin-bottom: 2px;
     display: block;
+    margin: 0 auto 2px auto;
 }
 
 .logo-image {
@@ -153,6 +154,7 @@ color: #C4AB46;
     height: auto;
     margin-bottom: 0.5px;
     display: block;
+    margin: 0 auto 2px auto;
 }
 
 .backhome-image {
