@@ -14,12 +14,6 @@
 </head>
 
 <body class="home-page">
-
-<div id="intro-overlay">
-    <video id="intro-video" autoplay muted playsinline preload="auto">
-        <source src="logo.mp4" type="video/mp4">
-    </video>
-</div>
     
 <div class="scroll-hint">
     <p class="sub-text">
@@ -185,82 +179,6 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
 });
-</script>
-
-<script>
-
-// =====================
-// Intro Video Settings
-// =====================
-
-const HOLD_TIME = 1000;      // milliseconds
-const FADE_TIME = 1000;      // milliseconds
-
-const video = document.getElementById("intro-video");
-const overlay = document.getElementById("intro-overlay");
-
-let pageLoaded = false;
-let videoFinished = false;
-
-// Fade and remove overlay
-function removeIntro() {
-
-    overlay.classList.add("fade-out");
-
-    setTimeout(() => {
-
-        overlay.remove();
-
-    }, FADE_TIME);
-
-}
-
-// Remove intro when BOTH page and video are ready
-function checkReady() {
-
-    if (pageLoaded && videoFinished) {
-
-        setTimeout(removeIntro, HOLD_TIME);
-
-    }
-
-}
-
-// If intro already played this visit
-if (sessionStorage.getItem("introPlayed")) {
-
-    overlay.remove();
-
-}
-else {
-
-    sessionStorage.setItem("introPlayed", "true");
-
-    window.addEventListener("load", () => {
-
-        pageLoaded = true;
-
-        checkReady();
-
-    });
-
-    video.addEventListener("ended", () => {
-
-        videoFinished = true;
-
-        checkReady();
-
-    });
-
-    // Skip intro if video fails
-    video.addEventListener("error", () => {
-
-        overlay.remove();
-
-    });
-
-}
-
 </script>
     
 </body>
