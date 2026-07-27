@@ -166,6 +166,7 @@ color: #C4AB46;
 
 /* BACKGROUND */
 body.home-page,
+body.intro-page,
 body.nikaah-page,
 body.wedding-page {
     background-image: url("home-background.jpg");
