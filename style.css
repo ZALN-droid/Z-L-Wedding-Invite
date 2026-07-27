@@ -252,7 +252,12 @@ p, h1, h2, h3 {
 #intro-overlay {
     position: fixed;
     inset: 0;
-    background: transparent;
+
+    background-image: url("home-background.jpg");
+    background-repeat: repeat-y;
+    background-size: 100% auto;
+    background-position: top center;
+
     display: flex;
     justify-content: center;
     align-items: center;
