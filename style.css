@@ -242,6 +242,11 @@ p, h1, h2, h3 {
     transform: translateX(-50%) translateY(0);
   }
 
+  50% {
+    transform: translateX(-50%) translateY(6px);
+  }
+}
+
 /* ---------- Intro Video ---------- */
 
 #intro-overlay {
@@ -262,12 +267,10 @@ p, h1, h2, h3 {
 }
 
 #intro-video {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
+    max-width: 100vw;
+    max-height: 100vh;
+    width: auto;
+    height: auto;
+    display: block;
 }
 
-  50% {
-    transform: translateX(-50%) translateY(6px);
-  }
-}
