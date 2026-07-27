@@ -264,7 +264,7 @@ p, h1, h2, h3 {
 #intro-video {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: contain;
 }
 
   50% {
