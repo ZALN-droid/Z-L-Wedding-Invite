@@ -20,7 +20,9 @@
 const video = document.getElementById("intro-video");
 
 video.addEventListener("ended", () => {
-    window.location.href = "intro.html";
+    setTimeout(() => {
+        window.location.href = "intro.html";
+    }, 3000);
 });
 </script>
 
