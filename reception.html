@@ -128,23 +128,66 @@
     </div>
 
     <script>
-        function reveal() {
-            const reveals = document.querySelectorAll(".reveal");
+document.addEventListener("DOMContentLoaded", () => {
 
-            reveals.forEach((element) => {
-                const windowHeight = window.innerHeight;
-                const elementTop = element.getBoundingClientRect().top;
-                const visiblePoint = 100;
-
-                if (elementTop < windowHeight - visiblePoint) {
-                    element.classList.add("active");
-                }
-            });
-        }
-
-        window.addEventListener("scroll", reveal);
+    const showContent = () => {
+        document.body.classList.add("background-ready");
         reveal();
-    </script>
+    };
+
+    const backgroundImage = getComputedStyle(document.body).backgroundImage;
+    const match = backgroundImage.match(/url\(["']?(.*?)["']?\)/);
+
+    if (!match) {
+        showContent();
+    } else {
+        const background = new Image();
+
+        background.onload = showContent;
+        background.onerror = showContent;
+        background.src = match[1];
+
+        if (background.complete) {
+            showContent();
+        }
+    }
+
+    function reveal() {
+        const reveals = document.querySelectorAll(".reveal");
+
+        reveals.forEach((element) => {
+            const windowHeight = window.innerHeight;
+            const elementTop = element.getBoundingClientRect().top;
+            const visiblePoint = 100;
+
+            if (elementTop < windowHeight - visiblePoint) {
+                const images = element.querySelectorAll("img");
+
+                const waitForImages = Promise.all(
+                    Array.from(images).map((img) => {
+                        if (img.complete) {
+                            return Promise.resolve();
+                        }
+
+                        return new Promise((resolve) => {
+                            img.addEventListener("load", resolve, { once: true });
+                            img.addEventListener("error", resolve, { once: true });
+                        });
+                    })
+                );
+
+                waitForImages.then(() => {
+                    element.classList.add("active");
+                });
+            }
+        });
+    }
+
+    window.addEventListener("scroll", reveal);
+    reveal();
+
+});
+</script>
 
 </body>
 </html>
