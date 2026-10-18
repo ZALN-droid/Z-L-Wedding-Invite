@@ -36,14 +36,6 @@ body {
 /* ACCENT TEXT */
 .accent-text {
     font-family: "Great Vibes", cursive;
-    font-size: 35px;
-    font-weight: 700;
-    color: #C4AB46;
-    line-height: 1;
-}
-
-.accent2-text {
-    font-family: "Great Vibes", cursive;
     font-size: 50px;
     font-weight: 900;
     color: #C4AB46;
@@ -65,6 +57,14 @@ body {
     font-size: 14px;
     color: #C4AB46;
     line-height: 1.5;
+}
+
+.gold2-text {
+    font-family: Garamond, serif;
+    font-size: 35px;
+    font-weight: 700;
+    color: #C4AB46;
+    line-height: 1;
 }
 
 .details-text {
