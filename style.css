@@ -265,4 +265,13 @@ p, h1, h2, h3 {
   }
 }
 
+/* Keep page content hidden until the background loads */
+body:not(.background-ready) .reveal {
+    visibility: hidden;
+}
+
+body.background-ready .reveal {
+    visibility: visible;
+}
+
 
