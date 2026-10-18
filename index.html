@@ -167,9 +167,31 @@ document.addEventListener("DOMContentLoaded", () => {
     const observer = new IntersectionObserver((entries) => {
         entries.forEach((entry) => {
             if (entry.isIntersecting) {
-                entry.target.classList.add('active');
+                const element = entry.target;
+                const images = element.querySelectorAll('img');
+
+                const waitForImages = Promise.all(
+                    Array.from(images).map((img) => {
+                        if (img.complete) {
+                            return Promise.resolve();
+                        }
+
+                        return new Promise((resolve) => {
+                            img.addEventListener('load', resolve, { once: true });
+                            img.addEventListener('error', resolve, { once: true });
+                        });
+                    })
+                );
+
+                waitForImages.then(() => {
+                    element.classList.add('active');
+                });
+
+                observer.unobserve(element);
             }
         });
+    }, {
+        threshold: 0.05
     });
 
     reveals.forEach((reveal) => {
