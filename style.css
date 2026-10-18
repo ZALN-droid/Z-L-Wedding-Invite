@@ -42,6 +42,15 @@ body {
     line-height: 1;
 }
 
+.accent2-text {
+    font-family: "Great Vibes", cursive;
+    font-size: 50px;
+    font-weight: 900;
+    color: #C4AB46;
+    line-height: 1;
+}
+
+
 /* OTHER TEXT */
 .italic-text {
     font-family: Garamond, serif;
@@ -162,6 +171,14 @@ color: #C4AB46;
     max-width: 250px;
     height: auto;
     margin: 0 auto;
+}
+
+/* GOLD LINE */
+.gold-line {
+    width: 60%;
+    height: 1px;
+    background-color: #C4AB46;
+    margin: 20px auto;
 }
 
 /* BACKGROUND */
