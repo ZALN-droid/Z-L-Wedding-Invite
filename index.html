@@ -162,6 +162,20 @@
 <script>
 document.addEventListener("DOMContentLoaded", () => {
 
+    const background = new Image();
+    background.src = new URL("home-background.jpg", document.baseURI).href;
+
+    const showContent = () => {
+        document.body.classList.add('background-ready');
+    };
+
+    if (background.complete) {
+        showContent();
+    } else {
+        background.addEventListener('load', showContent, { once: true });
+        background.addEventListener('error', showContent, { once: true });
+    }
+
     const reveals = document.querySelectorAll('.reveal');
 
     const observer = new IntersectionObserver((entries) => {
