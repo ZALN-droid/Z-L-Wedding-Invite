@@ -48,7 +48,7 @@ body {
     font-family: Garamond, serif;
     font-style: italic;
     font-size: 14px;
-    color: #777777;
+    color: #7C2946;
     line-height: 1.5;
 }
 
@@ -178,6 +178,13 @@ color: #C4AB46;
     width: 60%;
     height: 1px;
     background-color: #C4AB46;
+    margin: 20px auto;
+}
+
+.magenta-line {
+    width: 60%;
+    height: 1px;
+    background-color: #7C2946;
     margin: 20px auto;
 }
 
