@@ -176,14 +176,14 @@ color: #C4AB46;
 /* GOLD LINE */
 .gold-line {
     width: 60%;
-    height: 1px;
+    height: 2px;
     background-color: #C4AB46;
     margin: 20px auto;
 }
 
 .magenta-line {
     width: 60%;
-    height: 4px;
+    height: 2px;
     background-color: #A31A4F;
     margin: 20px auto;
 }
