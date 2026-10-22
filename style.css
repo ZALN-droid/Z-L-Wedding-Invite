@@ -94,6 +94,15 @@ color: #C4AB46;
 }
     
 /* IMAGES */
+.heading-image {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    margin-bottom: 0.5px;
+    display: block;
+    margin: 0 auto 2px auto;
+}
+
 .and-image {
     width: 100%;
     max-width: 350px;
