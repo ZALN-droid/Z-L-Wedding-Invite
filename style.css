@@ -133,14 +133,12 @@ color: #C4AB46;
     width: 100%;
     max-width: 300px;
     height: auto;
-    opacity: 0.6;
 }
 
 .dua2-image {
     width: 100%;
     max-width: 300px;
     height: auto;
-    opacity: 0.6;
 }
 
 .inshaallah-image {
@@ -148,22 +146,7 @@ color: #C4AB46;
     height: auto;
     display: block;
     margin: 0 auto;
-    opacity: 0.6;
-}
-
-.orderoftheday-image {
-    width: 60%;
-    max-width: 150px;
-    height: auto;
-}
-
-.heading-image {
-    width: 100%;
-    max-width: 500px;
-    height: auto;
-    margin-bottom: 0.5px;
-    display: block;
-    margin: 0 auto 2px auto;
+    opacity: 0.2;
 }
 
 .backhome-image {
