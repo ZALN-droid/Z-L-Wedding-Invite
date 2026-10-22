@@ -62,7 +62,7 @@ body {
 .gold2-text {
     font-family: Garamond, serif;
     font-size: 20px;
-    font-weight: 500;
+    font-weight: 200;
     color: #C4AB46;
     line-height: 1;
 }
@@ -70,7 +70,7 @@ body {
 .goldbold-text {
     font-family: Garamond, serif;
     font-size: 16px;
-    font-weight: 400;
+    font-weight: 500;
     color: #C4AB46;
     line-height: 1.5;
 }
