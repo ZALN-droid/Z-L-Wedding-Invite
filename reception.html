@@ -28,7 +28,7 @@
    <div class="section reveal">
     <p class="accent-text">Wedding Reception</p>
 
-    <p class="details-text">DETAILS</p>
+    <p class="details-text">DETAIL</p>
 
     <div class="magenta-line"></div>
 </div>
@@ -188,6 +188,15 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     }
 
+const rsvpForm = document.querySelector(".rsvp-form");
+const rsvpMessage = document.getElementById("rsvp-message");
+
+if (rsvpForm && rsvpMessage) {
+    rsvpForm.addEventListener("submit", () => {
+        rsvpMessage.style.display = "block";
+    });
+}
+    
     window.addEventListener("scroll", reveal);
     reveal();
 
